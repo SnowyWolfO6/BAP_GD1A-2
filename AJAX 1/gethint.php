@@ -67,7 +67,7 @@ if ($q !== "") {
             if ($hint === "") {
                 $hint = $name;
             } else {
-                $hint .= ", $name";
+                $hint .= "<br> $name ";
             }
         }
     }
